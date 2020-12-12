@@ -30,6 +30,7 @@ h6 {
   margin: 0;
   color: var(--gray);
   font-size: 0.8rem;
+  font-weight: 400;
 }
 
 p {
@@ -108,7 +109,7 @@ body {
 @media screen and (max-width: 375px) {
   .card {
     max-width: 95%;
-    min-height: 70vh;
+    min-height: 62vh;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
   }
@@ -122,18 +123,18 @@ body {
   }
 
   h5 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   h6 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .card-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1.8rem;
   }
 
   .author {
