@@ -1,0 +1,110 @@
+:root {
+  --dark: hsl(217, 19%, 35%);
+  --blue: hsl(214, 17%, 51%);
+  --gray: hsl(212, 23%, 69%);
+  --light: hsl(210, 46%, 95%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(342, 86%, 51%);
+}
+
+h2 {
+  margin: 0;
+  color: var(--dark);
+  font-size: 1.5rem;
+}
+
+h5 {
+  margin: 0;
+  color: var(--dark);
+  font-size: 1.1rem;
+}
+
+h6 {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.8rem;
+}
+
+p {
+  margin-bottom: 1.4em;
+  color: var(--blue);
+  font-size: 1rem;
+  line-height: 1.4em;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  margin: 1rem;
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.image {
+  background-image: url(/images/drawers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  border-radius: 1rem 0 0 1rem;
+}
+
+article {
+  padding: 3rem;
+}
+
+.author {
+  display: grid;
+  grid-template-columns: 17% 1fr 13%;
+}
+
+.author img {
+  min-width: 3rem;
+  min-height: 3rem;
+  max-width: 4rem;
+  max-height: 4rem;
+  border-radius: 5rem;
+}
+
+.author div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#share {
+  min-width: 3rem;
+  max-width: 3.5rem;
+  min-height: 3rem;
+  max-height: 3.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+#share:hover {
+  cursor: pointer;
+  background-color: var(--dark);
+  color: var(--light);
+}
